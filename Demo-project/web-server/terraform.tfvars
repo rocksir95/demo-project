@@ -1,0 +1,11 @@
+project-id     = "terraform-test-009"
+region         = "us-central1"
+region-zone    = "us-central1-a"
+web-server     = "gcp-web-server"
+firewall-ports = ["80", "443"]
+instance-name  = "apache-server"
+machine-type   = "n2-standard-2"
+zone           = "us-central1-a"
+image          = "debian-11"
+network        = "demo-vpc"
+subnetwork     = "demo-public-subnetwork"
